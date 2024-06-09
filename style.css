@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:Poppins, sans-serif;
+    border: none;
+}
+
+body{
+    background: url("new.JPG");
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin: 20px;
+    background: whitesmoke;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+h1{
+    background: transparent;
+    transition: 0.5s;
+    color:#c68642;
+    animation: SlideDown 0.7s;
+}
+
+h1:hover{
+    color: #885d2f;
+    transform: scale(1.2);
+}
+
+td{
+    background: #c68642;
+}
+
+.details{
+    width: 620px;
+    height: 620px;
+    background: #c68642;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    accent-color: peachpuff;
+    color: white;
+    transition: 0.3s;
+    animation: Fade 2.2s;
+}
+
+
+.details:hover{
+    background: peachpuff;
+    color: #c68642;
+    border: 2px solid black;
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+}
+
+.details1:hover{
+    background: peachpuff;
+    color: #c68642;
+    border: 2px solid black;
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+}
+
+
+table{
+    background: transparent;
+}
+
+.details1{
+    width: 620px;
+    height: 680px;
+    background: #c68642;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.3s;
+    animation: Fade 2.2s;
+}
+
+
+#appoint{
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #c68642;
+    color: white;
+    font-weight: 405;
+    transition: 0.5s;
+}
+
+
+#appoint:hover{
+    background: peachpuff;
+    color: black
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+table, th, td {
+    border: none;
+    background: transparent;
+}
+
+@keyframes SlideDown {
+    0%{
+        transform: translateY(-100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes Fade {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+
